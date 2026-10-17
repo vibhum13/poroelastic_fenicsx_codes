@@ -1,0 +1,47 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Editor / operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary artifacts
+*.log
+*.tmp
+*.bak
+*~
+
+# Generated numerical outputs (may be large)
+results/
+output/
+outputs/
+LO_2010_REPRODUCTION_CAUSAL_UPQ_NEW/
+LO_2010_10Hz_ONLY/
+LO_REFERENCE_10Hz_ONLY/
+*.pvd
+*.vtu
+*.pvtu
+*.vtk
+*.vtu.series
+*.bp
+*.bp4
+*.bp5
+*.xdmf~
+*.h5~
+
+# IMPORTANT: Do NOT globally ignore *.h5 or *.xdmf.
+# The steady_state/mesh.* and mt.* mesh files are REQUIRED inputs.

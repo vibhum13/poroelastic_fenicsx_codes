@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these scripts in your research, please cite this software repository and the relevant original benchmark references."
+title: "FEniCSx implementations of dynamic, quasi-static, and steady-state poroelastic benchmarks"
+type: software
+authors:
+  - family-names: Mahajan
+    given-names: Vibhum
+    affiliation: "Indian Institute of Technology Roorkee"
+repository-code: "https://github.com/vibhum13/fenicsx-poroelastic-codes"
+license: MIT
+version: 1.0.0
+# Add the assigned Zenodo DOI after the first archived release.
+# Update repository-code if publishing under a different GitHub URL.
