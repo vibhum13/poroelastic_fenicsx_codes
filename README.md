@@ -6,7 +6,7 @@ Open-source research code for **dynamic**, **quasi-static**, and **steady-state*
 
 | Folder | Main script | Problem and numerical formulation |
 | --- | --- | --- |
-| [`dynamic/`](dynamic/) | [`dynamic.py`](dynamic/dynamic.py) | Transient dynamic saturated poroelastic response with solid displacement, pore pressure and relative fluid flux (`u-p-q`). The included implementation applies a moving surface load and contains its analytical comparison routines. |
+| [`dynamic/`](dynamic/) | [`dynamic.py`](dynamic/dynamic.py) |Transient dynamic response of saturated poroelastic media under harmonic surface loading, formulated in terms of solid displacement, pore pressure, and relative fluid flux (`u-p-q`). The implementation includes numerical verification against the analytical solution of Lo (2010), with comparisons of pore-pressure and vertical-stress profiles.
 | [`quasistatic/`](quasistatic/) | [`mandel.py`](quasistatic/mandel.py) | Mandel consolidation benchmark, solved using a coupled displacement-pressure formulation. |
 | [`steady state/`](steady%20state/) | [`steady.py`](steady%20state/steady.py) | Steady-state annular poroelastic problem with prescribed fluid flux at the inner boundary; numerical radial deformation is compared with an analytical solution. |
 
