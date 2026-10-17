@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite the version you used."
+title: "FEniCSx implementations of dynamic, quasi-static, and steady-state poroelastic benchmarks"
+type: software
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Mahajan
+    given-names: Vibhum
+    affiliation: "Indian Institute of Technology Roorkee"
+abstract: >-
+  Research software containing FEniCSx implementations of dynamic
+  displacement-pressure-flux, quasi-static Mandel consolidation, and
+  steady-state annular poroelastic benchmark problems.
+keywords:
+  - poroelasticity
+  - FEniCSx
+  - finite element method
+  - consolidation
+  - dynamic poroelasticity
+  - numerical benchmarks
